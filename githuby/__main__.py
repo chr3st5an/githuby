@@ -39,7 +39,7 @@ async def fetcher(username: str, session: ClientSession) -> None:
         return print(f"User {username!r} not found.\n")
 
     print(f"User: {user.username} (#{user.id})\n")
-    pprint(user.raw_data)
+    pprint(user._raw_data)
     print()
 
 
