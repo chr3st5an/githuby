@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "githuby"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple package to get data about GitHub users"
 authors = ["Christian <64144555+chr3st5an@users.noreply.github.com>"]
 license = "MIT"
